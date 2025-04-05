@@ -1,9 +1,9 @@
 import crypto from 'crypto';
 
 /**
- * @param {string} botToken telegram bot token.
+ * @param {string} token telegram bot token.
  * @param {string} initData - user data injected by telegram to the window.Telegram.WebApp
- * @param {number} ttl - The time in seconds after the data becomes invalid.
+ * @param {number} ttl - time in seconds after the data becomes invalid.
  * @returns {boolean} Whether data is valid.
  */
 export function verifyMiniapp(token, initData, ttl = 24 * 60 * 60) {
