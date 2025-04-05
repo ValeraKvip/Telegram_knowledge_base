@@ -1,4 +1,4 @@
-### Telegram webhook running on HTTP - localhost.
+# Telegram webhook running on HTTP - localhost.
 The Telegram Bot API webhook requires an HTTPS (TLS) connection, which poses a problem for development in a local environment.
 
 
@@ -13,7 +13,7 @@ and then simulate a webhook by sending a POST request to our webhook endpoint.
 **With zero third-party dependencies or suspicious apps on your machine.**👍
 
 
-# Files
+### Files
 `.env.example` Contains an example of environment variables. Copy and paste it into your `.env` file.
 
 `index.js` contains a Node.js server that will do the trick.<br>
