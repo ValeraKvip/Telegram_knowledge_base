@@ -9,8 +9,8 @@ Additionally, they might slow down the network. Last but not least, it requires 
 
 ## Good solution
 We will use long polling and the [getUpdates](https://core.telegram.org/bots/api#getupdates) method to fetch new messages,
-and then simulate a webhook by sending a POST request to our webhook endpoint.
-*With zero third-party dependencies or suspicious apps on your machine.*👍
+and then simulate a webhook by sending a POST request to our webhook endpoint.<br>
+With zero third-party dependencies or suspicious apps on your machine.👍
 
 
 ### Files
