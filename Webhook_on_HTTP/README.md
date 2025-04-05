@@ -14,8 +14,8 @@ With zero third-party dependencies or suspicious apps on your machine.👍
 
 
 ### Files
-`.env.example` - Contains an example of environment variables. Copy and paste it into your `.env` file.<br>
-`index.js` contains a Node.js server that will do the trick.<br>
+`.env.example` - contains an example of environment variables. Copy and paste it into your `.env` file.<br>
+`index.js` - contains a Node.js server that will do the trick.<br>
 You can copy and paste it into the root of your project, fill in the app variables (preferably from a `.env` file), and run it during development.
 
 
