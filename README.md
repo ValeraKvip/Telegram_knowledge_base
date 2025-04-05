@@ -4,14 +4,14 @@ The repository contains some hacks and examples of how to work with the Telegram
 
 ## Cases
 
-> The mini app requires HTTPS, but I am testing on localhost.
+#### The mini app requires HTTPS, but I am testing on localhost.
 [Mini_app_on_HTTP](/Mini_app_on_HTTP)
 
-> How do I validate my mini app?
+#### How do I validate my mini app?
 [Mini_app_validation](/Mini_app_validation)
 
-> How do I create a private Telegram bot?
+#### How do I create a private Telegram bot?
 [Private_Bot](/Private_Bot)
 
-> webhook requires an HTTPS endpoint, but I am testing on localhost
+#### webhook requires an HTTPS endpoint, but I am testing on localhost
 [Webhook_on_HTTP](/Webhook_on_HTTP)
