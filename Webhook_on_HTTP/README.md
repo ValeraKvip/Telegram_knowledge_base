@@ -1,4 +1,4 @@
-## Telegram webhook running on HTTP - localhost.
+## Telegram webhook running on HTTP - localhost
 The Telegram Bot API webhook requires an HTTPS (TLS) connection, which poses a problem for development in a local environment.
 
 
@@ -8,9 +8,9 @@ Additionally, they might slow down the network. Last but not least, it requires 
 
 
 ## Good solution
-We will use long polling and the [getUpdates](https://core.telegram.org/bots/api#getupdates)method to fetch new messages,
+We will use long polling and the [getUpdates](https://core.telegram.org/bots/api#getupdates) method to fetch new messages,
 and then simulate a webhook by sending a POST request to our webhook endpoint.
-**With zero third-party dependencies or suspicious apps on your machine.**👍
+*With zero third-party dependencies or suspicious apps on your machine.*👍
 
 
 ### Files
