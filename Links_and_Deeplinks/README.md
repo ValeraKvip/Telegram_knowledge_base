@@ -34,7 +34,7 @@ window.Telegram.WebApp.openTelegramLink(inviteLink);
 
 For Public:
 ```js
-// Use invite link
+// Use an invite link
 const inviteLink = 'https://t.me/+UaaXXaaaXXXaX';				
 window.Telegram.WebApp.openTelegramLink(inviteLink);
 ```
