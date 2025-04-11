@@ -41,10 +41,10 @@ window.Telegram.WebApp.openTelegramLink(inviteLink);
 
 ```js
 // OR id
-const channel_id = '-100123456789'.replace('-100', '')	
+const group_id = '-100123456789'.replace('-100', '')	
 const post_id = '9999999'//to last post
 
-const url = `https://t.me/c/${channel_id}/${post_id}`;
+const url = `https://t.me/c/${group_id}/${post_id}`;
 window.Telegram.WebApp.openTelegramLink(url);		
 ```
 
