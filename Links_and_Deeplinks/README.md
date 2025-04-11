@@ -64,7 +64,7 @@ window.Telegram.WebApp.openTelegramLink(url);
 ```
 
 
-### To open a share link(Froward dialog)
+### To open a share link(Forward dialog)
 ```js
 const text = 'Text'
 const startapp = 'start'
