@@ -3,12 +3,12 @@ See: [https://core.telegram.org/api/links](https://core.telegram.org/api/links)
 ## Mini app
 ### To open a channel and navigate to a specific post from the mini app
 ```js
-    const channel_id = '-100123456789'.replace('-100', '')
-	const post_id = '1'//to first post
-    const post_id = '9999999'//to last post
+const channel_id = '-100123456789'.replace('-100', '')
+const post_id = '1'//to first post
+const post_id = '9999999'//to last post
 
-	const url = `https://t.me/c/${channel_id}/${post_id}`;
-    window.Telegram.WebApp.openTelegramLink(url);		
+const url = `https://t.me/c/${channel_id}/${post_id}`;
+window.Telegram.WebApp.openTelegramLink(url);		
 ```
 NOTE:
 1. Make sure that the post with the specified id really exists.
@@ -19,55 +19,55 @@ NOTE:
 
 ### To open a bot
 ```js
-    const bot_username = '@BotFather'.replace('@','');			
-	const url = `https://t.me/${bot_username}`;
-    window.Telegram.WebApp.openTelegramLink(url);	
+const bot_username = '@BotFather'.replace('@','');			
+const url = `https://t.me/${bot_username}`;
+window.Telegram.WebApp.openTelegramLink(url);	
 ```
 
 
 ### To open a group
 For Private:
 ```js
-    const inviteLink = 'https://t.me/+UaaXXaaaXXXaX';				
-    window.Telegram.WebApp.openTelegramLink(inviteLink);	
+const inviteLink = 'https://t.me/+UaaXXaaaXXXaX';				
+window.Telegram.WebApp.openTelegramLink(inviteLink);	
 ```
 
 For Public:
 ```js
 // Use invite link
-    const inviteLink = 'https://t.me/+UaaXXaaaXXXaX';				
-    window.Telegram.WebApp.openTelegramLink(inviteLink);
+const inviteLink = 'https://t.me/+UaaXXaaaXXXaX';				
+window.Telegram.WebApp.openTelegramLink(inviteLink);
 ```
 
 ```js
 // OR id
-    const channel_id = '-100123456789'.replace('-100', '')	
-    const post_id = '9999999'//to last post
+const channel_id = '-100123456789'.replace('-100', '')	
+const post_id = '9999999'//to last post
 
-	const url = `https://t.me/c/${channel_id}/${post_id}`;
-    window.Telegram.WebApp.openTelegramLink(url);		
+const url = `https://t.me/c/${channel_id}/${post_id}`;
+window.Telegram.WebApp.openTelegramLink(url);		
 ```
 
 ### To open a private chat
 By the username:
 ```js
-    const username = '@username'.replace('@','');			
-	const url = `https://t.me/${username}`;
-    window.Telegram.WebApp.openTelegramLink(url);	
+const username = '@username'.replace('@','');			
+const url = `https://t.me/${username}`;
+window.Telegram.WebApp.openTelegramLink(url);	
 ```
 
 By the phone number:
 ```js
-	const phone_number = '+123456789'
-	const url = `https://t.me/${phone_number}`;
-    window.Telegram.WebApp.openTelegramLink(url);	
+const phone_number = '+123456789'
+const url = `https://t.me/${phone_number}`;
+window.Telegram.WebApp.openTelegramLink(url);	
 ```
 
 
 ### To open a share link(Froward dialog)
 ```js
-	const text = 'Text'
-	const startapp = 'start'
-	const url = `https://google.com?startapp=${startapp}`
-	window.Telegram.WebApp.openTelegramLink(`https://t.me/share/url?url=${url}text=${text}`);	
+const text = 'Text'
+const startapp = 'start'
+const url = `https://google.com?startapp=${startapp}`
+window.Telegram.WebApp.openTelegramLink(`https://t.me/share/url?url=${url}text=${text}`);	
 ```
