@@ -12,5 +12,5 @@ Additionally, they might slow down the network. Last but not least, it requires 
 We will use a free "short url" service. For example:<br>
 https://www.shorturl.at/<br>
 
-Put your localhost URL there, and then send the shortened URL to BotFather.<br>
+Put your localhost URL(http://127.0.0.1:3000) there, and then send the shortened URL to BotFather.<br>
 Done! You have a perfectly working mini app on localhost.
