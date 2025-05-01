@@ -24,7 +24,7 @@ const url = `https://t.me/${bot_username}`;
 window.Telegram.WebApp.openTelegramLink(url);	
 ```
 
-to open a bot and auto-send `/start` use:
+To open a bot and auto-send `/start` use:
 ```js
 const url = `https://t.me/${bot_username}?start`;
 ```
